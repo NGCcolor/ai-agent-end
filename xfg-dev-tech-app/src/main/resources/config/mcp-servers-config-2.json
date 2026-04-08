@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "csdn-server": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "/mcp-server-csdn-1.0.0.jar",
+        "--csdn.api.cookie=UN=weixin_54200992; c_dl_prid=1735447015217_690986; c_dl_rid=1744792858947_141949; c_dl_fref=https://blog.csdn.net/2401_88959292/article/details/145700716; c_dl_fpage=/download/qq_74521328/88856822; c_dl_um=-; fid=20_04753285669-1757676855219-020584; uuid_tt_dd=10_36642480250-1764413475194-989974; loginbox_strategy=%7B%22taskId%22%3A317%2C%22abCheckTime%22%3A1772802952278%2C%22version%22%3A%22ExpA%22%2C%22nickName%22%3A%22int%20*a%22%2C%22blog-threeH-dialog-expa%22%3A1772802952278%7D; UserName=weixin_54200992; UserInfo=de09241ff60b4e0fa0291c46df09d89f; UserToken=de09241ff60b4e0fa0291c46df09d89f; UserNick=int+*a; AU=41E; BT=1772802984479; p_uid=U010000; csdn_newcert_weixin_54200992=1; c_ab_test=1; dc_session_id=10_1774964389312.309135; c_first_ref=cn.bing.com; c_first_page=https%3A//www.csdn.net/; c_dsid=11_1774964389965.191920; c_segment=6; c-sidebar-collapse=0; dc_sid=6d53ba9ef6ee1b54a077a4a6078f35c4; creative_popup=%7B%22arrowIcon%22%3A%22https%3A//i-operation.csdnimg.cn/images/0f13ec529b6b4195ad99894f76653e56.png%22%2C%22img%22%3A%22https%3A//i-operation.csdnimg.cn/images/2c94ad0f30174b8dbad26e90133598f0.png%22%2C%22imgStyle%22%3A%22height%3A%2088px%3B%22%2C%22darkCfg%22%3A%7B%7D%2C%22role%22%3A%22write%22%2C%22report%22%3A%7B%22spm%22%3A%223001.11121%22%2C%22extra%22%3A%22%22%7D%2C%22style%22%3A%22%22%2C%22arrowIconStyle%22%3A%22%22%2C%22url%22%3A%22https%3A//mp.csdn.net/edit%22%2C%22newTab%22%3Afalse%2C%22userName%22%3A%22weixin_54200992%22%7D; creative_btn_mp=2; c_pref=https%3A//www.csdn.net/; c_ref=https%3A//mp.csdn.net/; c_page_id=default; log_Id_pv=3; log_Id_view=76; dc_tos=tcrns8; log_Id_click=8; SESSION=e4581952-0f42-40d7-b24f-27ddaefe8124"
+      ]
+    }
+  },
+  "mcpServers-weixin": {
+    "csdn-server": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "/mcp-server-weixin-app.jar"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+package domain.yyy.adapter.repository;
