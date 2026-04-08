@@ -9,7 +9,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>xfg-dev-tech-domain</artifactId>
+    <artifactId>ai-agent-domain</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -87,7 +87,7 @@
         <!-- 系统模块 -->
         <dependency>
             <groupId>cn.bugstack</groupId>
-            <artifactId>xfg-dev-tech-types</artifactId>
+            <artifactId>ai-agent-types</artifactId>
         </dependency>
 
     </dependencies>

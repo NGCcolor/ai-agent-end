@@ -7,7 +7,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>ai-agent-station-study-trigger</artifactId>
+    <artifactId>ai-agent-types</artifactId>
 
     <dependencies>
         <dependency>
@@ -15,35 +15,25 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-tx</artifactId>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
-
-        <!-- 系统模块 -->
-        <dependency>
-            <groupId>cn.bugstack</groupId>
-            <artifactId>xfg-dev-tech-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.bugstack</groupId>
-            <artifactId>xfg-dev-tech-types</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.bugstack</groupId>
-            <artifactId>xfg-dev-tech-domain</artifactId>
-        </dependency>
     </dependencies>
 
     <build>
-        <finalName>ai-agent-station-study-trigger</finalName>
+        <finalName>ai-agent-types</finalName>
     </build>
 
 </project>

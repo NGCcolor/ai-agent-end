@@ -9,7 +9,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>xfg-dev-tech-app</artifactId>
+    <artifactId>ai-agent-app</artifactId>
 
     <packaging>jar</packaging>
 
@@ -105,7 +105,7 @@
 
         <dependency>
             <groupId>cn.bugstack</groupId>
-            <artifactId>xfg-dev-tech-trigger</artifactId>
+            <artifactId>ai-agent-trigger</artifactId>
         </dependency>
     </dependencies>
 

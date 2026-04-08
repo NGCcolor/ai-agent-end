@@ -9,12 +9,12 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>xfg-dev-tech-api</module>
-        <module>xfg-dev-tech-app</module>
-        <module>xfg-dev-tech-trigger</module>
-        <module>xfg-dev-tech-infrastructure</module>
-        <module>xfg-dev-tech-domain</module>
-        <module>xfg-dev-tech-types</module>
+        <module>ai-agent-api</module>
+        <module>ai-agent-app</module>
+        <module>ai-agent-trigger</module>
+        <module>ai-agent-infrastructure</module>
+        <module>ai-agent-domain</module>
+        <module>ai-agent-types</module>
     </modules>
 
     <properties>
@@ -134,27 +134,27 @@
 
             <dependency>
                 <groupId>cn.bugstack</groupId>
-                <artifactId>xfg-dev-tech-api</artifactId>
+                <artifactId>ai-agent-api</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>
                 <groupId>cn.bugstack</groupId>
-                <artifactId>xfg-dev-tech-trigger</artifactId>
+                <artifactId>ai-agent-trigger</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>
                 <groupId>cn.bugstack</groupId>
-                <artifactId>xfg-dev-tech-domain</artifactId>
+                <artifactId>ai-agent-domain</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>
                 <groupId>cn.bugstack</groupId>
-                <artifactId>xfg-dev-tech-infrastructure</artifactId>
+                <artifactId>ai-agent-infrastructure</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>
                 <groupId>cn.bugstack</groupId>
-                <artifactId>xfg-dev-tech-types</artifactId>
+                <artifactId>ai-agent-types</artifactId>
                 <version>1.0</version>
             </dependency>
         </dependencies>
